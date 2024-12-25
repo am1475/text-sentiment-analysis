@@ -1,121 +1,114 @@
-Sentiment Text Analysis Platform
+# Sentiment Text Analysis Platform
 
-This project is a Sentiment Text Analysis Platform designed to analyze the sentiment of user-provided text inputs using the Hugging Face Inference API. The platform is built with a Flask backend, React frontend, and styled with Tailwind CSS. It offers a seamless and efficient way to classify sentiments in real-time.
+This project is a **Sentiment Text Analysis Platform** designed to analyze the sentiment of user-provided text inputs using the Hugging Face Inference API. The platform is built with a Flask backend, React frontend, and styled with Tailwind CSS. It offers a seamless and efficient way to classify sentiments in real-time.
 
-Features
+## Features
 
-Real-Time Sentiment Analysis: Processes text inputs to determine sentiment with high accuracy.
+- **Real-Time Sentiment Analysis**: Processes text inputs to determine sentiment with high accuracy.
+- **Responsive User Interface**: Built with React and Tailwind CSS for an intuitive user experience.
+- **Efficient Backend**: Flask backend integrates with the Hugging Face Inference API to handle requests and responses.
+- **Optimized Performance**: Delivers results with response times under 100ms per request.
 
-Responsive User Interface: Built with React and Tailwind CSS for an intuitive user experience.
+---
 
-Efficient Backend: Flask backend integrates with the Hugging Face Inference API to handle requests and responses.
+## Tech Stack
 
-Optimized Performance: Delivers results with response times under 100ms per request.
+### Frontend
+- **React.js**
+- **Tailwind CSS**
 
-Tech Stack
+### Backend
+- **Flask**
+- **Hugging Face Inference API**
 
-Frontend
+### Deployment
+- Hosted on [Vercel](https://vercel.com/) (Frontend)
+- Backend hosted on [Heroku](https://www.heroku.com/) or similar platform.
 
-React.js
+---
 
-Tailwind CSS
-
-Backend
-
-Flask
-
-Hugging Face Inference API
-
-Deployment
-
-Hosted on Vercel (Frontend)
-
-Backend hosted on Heroku or similar platform.
-
-Installation
+## Installation
 
 Follow these steps to run the project locally:
 
-Backend
+### Backend
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/sentiment-analysis-platform.git
+   cd sentiment-analysis-platform/backend
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the Flask server:
+   ```bash
+   flask run
+   ```
 
-Clone the repository:
+### Frontend
+1. Navigate to the frontend folder:
+   ```bash
+   cd sentiment-analysis-platform/frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-git clone https://github.com/your-username/sentiment-analysis-platform.git
-cd sentiment-analysis-platform/backend
+---
 
-Install dependencies:
+## Screenshots
 
-pip install -r requirements.txt
+### Home Page
+![Home Page](images/home-page.png)
 
-Run the Flask server:
+### Sentiment Analysis Input
+![Sentiment Analysis Input](images/input-page.png)
 
-flask run
+### Analysis Results
+![Analysis Results](images/results-page.png)
 
-Frontend
+---
 
-Navigate to the frontend folder:
+## API Workflow
+1. **User Input**: Text is input into the frontend.
+2. **API Request**: The Flask backend sends the text to the Hugging Face Inference API.
+3. **API Response**: The sentiment analysis result is returned to the backend.
+4. **Frontend Display**: The result is displayed to the user in a user-friendly format.
 
-cd sentiment-analysis-platform/frontend
+---
 
-Install dependencies:
-
-npm install
-
-Start the development server:
-
-npm start
-
-Screenshots
-
-Home Page
-
-
-
-Sentiment Analysis Input
-
-
-
-Analysis Results
-
-
-
-API Workflow
-
-User Input: Text is input into the frontend.
-
-API Request: The Flask backend sends the text to the Hugging Face Inference API.
-
-API Response: The sentiment analysis result is returned to the backend.
-
-Frontend Display: The result is displayed to the user in a user-friendly format.
-
-Example Usage
-
+## Example Usage
 Input Text:
-
-"This is the best day of my life!"
+> "This is the best day of my life!"
 
 Output Sentiment:
+> **Positive**
 
-Positive
+---
 
-Future Enhancements
+## Future Enhancements
+- Add support for multiple languages.
+- Provide more detailed sentiment insights.
+- Integrate additional NLP models for advanced text analysis.
 
-Add support for multiple languages.
+---
 
-Provide more detailed sentiment insights.
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Integrate additional NLP models for advanced text analysis.
+---
 
-License
+## Acknowledgments
+- Hugging Face for their Inference API and pre-trained models.
+- Tailwind CSS for styling.
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Acknowledgments
-
-Hugging Face for their Inference API and pre-trained models.
-
-Tailwind CSS for styling.
+---
 
 For any questions or feedback, please feel free to contact me via email at [your-email@example.com].
 
