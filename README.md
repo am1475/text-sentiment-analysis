@@ -1,12 +1,12 @@
 # Sentiment Text Analysis Platform
 
-This project is a **Sentiment Text Analysis Platform** designed to analyze the sentiment of user-provided text inputs using the Hugging Face Inference API. The platform is built with a Flask backend, React frontend, and styled with Tailwind CSS. It offers a seamless and efficient way to classify sentiments in real-time.
+This project is a **Sentiment Text Analysis Platform** designed to analyze the sentiment of user-provided text inputs using the Hugging Face Inference API. The platform is built with a Express JS backend, React frontend, and styled with Tailwind CSS. It offers a seamless and efficient way to classify sentiments in real-time.
 
 ## Features
 
 - **Real-Time Sentiment Analysis**: Processes text inputs to determine sentiment with high accuracy.
 - **Responsive User Interface**: Built with React and Tailwind CSS for an intuitive user experience.
-- **Efficient Backend**: Flask backend integrates with the Hugging Face Inference API to handle requests and responses.
+- **Efficient Backend**: Express JS backend integrates with the Hugging Face Inference API to handle requests and responses.
 - **Optimized Performance**: Delivers results with response times under 100ms per request.
 
 ---
@@ -18,7 +18,7 @@ This project is a **Sentiment Text Analysis Platform** designed to analyze the s
 - **Tailwind CSS**
 
 ### Backend
-- **Flask**
+- **Express JS**
 - **Hugging Face Inference API**
 
 
@@ -36,11 +36,11 @@ Follow these steps to run the project locally:
    ```
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   npm i
    ```
-3. Run the Flask server:
+3. Run the Express JS server:
    ```bash
-   flask run
+   Express JS run
    ```
 
 ### Frontend
@@ -74,7 +74,7 @@ Follow these steps to run the project locally:
 
 ## API Workflow
 1. **User Input**: Text is input into the frontend.
-2. **API Request**: The Flask backend sends the text to the Hugging Face Inference API.
+2. **API Request**: The Express JS backend sends the text to the Hugging Face Inference API.
 3. **API Response**: The sentiment analysis result is returned to the backend.
 4. **Frontend Display**: The result is displayed to the user in a user-friendly format.
 
