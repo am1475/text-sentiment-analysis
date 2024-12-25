@@ -65,7 +65,7 @@ Follow these steps to run the project locally:
 ## Screenshots
 
 ### Home Page
-![Home Page](images/home-page.png)
+![Home Page](https://res.cloudinary.com/dqm8rxpzq/image/upload/v1735116678/te1_y18q3f.png)
 
 ### Sentiment Analysis Input
 ![Sentiment Analysis Input](images/input-page.png)
