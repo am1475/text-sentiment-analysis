@@ -68,10 +68,10 @@ Follow these steps to run the project locally:
 ![Home Page](https://res.cloudinary.com/dqm8rxpzq/image/upload/v1735116678/te1_y18q3f.png)
 
 ### Sentiment Analysis Input
-![Sentiment Analysis Input](images/input-page.png)
+![Sentiment Analysis Input](https://res.cloudinary.com/dqm8rxpzq/image/upload/v1735117001/te2_nx6ver.png)
 
 ### Analysis Results
-![Analysis Results](images/results-page.png)
+![Analysis Results](https://res.cloudinary.com/dqm8rxpzq/image/upload/v1726409994/Screenshot_2024-09-15_194840_o3n1hz.png)
 
 ---
 
