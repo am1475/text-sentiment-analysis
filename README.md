@@ -40,7 +40,7 @@ Follow these steps to run the project locally:
    ```
 3. Run the Express JS server:
    ```bash
-   Express JS run
+   node server.js
    ```
 
 ### Frontend
