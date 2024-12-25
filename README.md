@@ -21,9 +21,6 @@ This project is a **Sentiment Text Analysis Platform** designed to analyze the s
 - **Flask**
 - **Hugging Face Inference API**
 
-### Deployment
-- Hosted on [Vercel](https://vercel.com/) (Frontend)
-- Backend hosted on [Heroku](https://www.heroku.com/) or similar platform.
 
 ---
 
@@ -99,8 +96,7 @@ Output Sentiment:
 
 ---
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
 ---
 
@@ -110,5 +106,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-For any questions or feedback, please feel free to contact me via email at [your-email@example.com].
+For any questions or feedback, please feel free to contact me via email at [amartyapaul252@gmail.com].
 
